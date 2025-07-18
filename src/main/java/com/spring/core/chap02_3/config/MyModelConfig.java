@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-// 해당 패키지 범위 안에서 @Component가 붙은
+// 해당 패키지 범위 안에서 @Component가 붙은 모든 클래스를 스캔하고 빈으로 등록한다.
 @ComponentScan(basePackages = "com.spring.core.chap02_3")
 public class MyModelConfig {
 
