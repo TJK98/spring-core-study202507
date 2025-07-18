@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 
 // 클라이언트의 요청을 처리하는 클래스
-//@Component // 스프링에게 빈 등록 (빈 정의)
-@Controller
+//@Component // 스프링에게 빈 등록 (빈 정의), 특수한 역할이 없는 일반적인 빈에 사용
+@Controller // 웹 애플리케이션에서 컨트롤러 역할을 하는 클래스에 사용
 public class MyController {
 
     private MyService service;

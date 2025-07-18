@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 // 데이터베이스에서 가져온 데이터를 정제하는 클래스
-//@Component // 스프링에게 빈 등록 (빈 정의)
-@Service
+//@Component // 스프링에게 빈 등록 (빈 정의), 특수한 역할이 없는 일반적인 빈에 사용
+@Service // 비즈니스 로직을 담고 있는 서비스 클래스에 사용
 public class MyService {
 
     // 데이터베이스에 데이터를 가져오기 위해 의존관계

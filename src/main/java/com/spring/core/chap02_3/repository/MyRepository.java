@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 // 데이터베이스에 접근해서 데이터를 CRUD하는 역할
-//@Component // 스프링에게 빈 등록 (빈 정의)
-@Repository // 이 클래스는 명시적으로 DB에 접근하는 클래스이다.
+//@Component // 스프링에게 빈 등록 (빈 정의), 특수한 역할이 없는 일반적인 빈에 사용
+@Repository // 데이터 접근 계층(DAO) 클래스에 사용
 public class MyRepository {
 
     public MyRepository() {
